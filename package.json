@@ -1,5 +1,5 @@
 {
-  "name": "bs-example-htmlOut",
+  "name": "raptor-controller",
   "version": "1.0.0",
   "description": "Example of how to build a BrightSign HTML5 App for multi-output",
   "main": "index.js",
