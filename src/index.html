@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- <script src="./dist/main.js"></script> -->
+  <script src="./dist/bundle.js"></script>
+  <style>
+    body {
+      margin: 0;
+      background-color: rgb(9, 255, 0);
+      font-family: Arial, sans-serif;
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      height: 100vh;
+      align-items: center;
+      justify-items: center;
+    }
+
+    iframe {
+      width: 3840px;
+      height: 2160px;
+      border: 5px solid rgb(255, 26, 26);
+      display: block;
+      margin: auto;
+    }
+  </style>
+
+</head>
+<!-- <body> that runs window.main onload -->
+
+<body onload='main()'>
+  <div>
+    <iframe src="file:///sd:/media/505837.jpg" alt="Static Image 1"></iframe>
+  </div>
+  <div>
+    <iframe src="file:///sd:/media/download.jpeg" alt="Static Image 2"></iframe>
+  </div>
+  <div>
+    <iframe src="file:///sd:/media/505837.jpg" alt="Static Image 3"></iframe>
+  </div>
+  <div>
+    <iframe src="file:///sd:/media/download.jpeg" alt="Static Image 4"></iframe>
+  </div>
+</body>
+
+</html>
