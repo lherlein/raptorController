@@ -31,7 +31,7 @@ async function screenModeConfig(vidConfig) {
   */
 
   // Set first screen output to 1080p
-  setModesConfig[0].videoMode = "3840x2160x30p";
+  setModesConfig[0].videoMode = "1920x1080x60p";
 
   // Set second screen output
   setModesConfig[1].outputName = "HDMI-2";
@@ -39,7 +39,7 @@ async function screenModeConfig(vidConfig) {
   setModesConfig[1].screenX = 3840;
   setModesConfig[1].screenY = 0;
   setModesConfig[1].transform = "normal";
-  setModesConfig[1].videoMode = "3840x2160x30p";
+  setModesConfig[1].videoMode = "1920x1080x60p";
 
   // Account for more than 2 outputs and current return bug
 
@@ -50,7 +50,7 @@ async function screenModeConfig(vidConfig) {
   setModesConfig[2].screenX = 0;
   setModesConfig[2].screenY = 2160;
   setModesConfig[2].transform = "normal";
-  setModesConfig[2].videoMode = "3840x2160x30p";
+  setModesConfig[2].videoMode = "1920x1080x60p";
 
   // Set fourth output
   setModesConfig[3] = { ...setModesConfig[0] };
@@ -59,7 +59,7 @@ async function screenModeConfig(vidConfig) {
   setModesConfig[3].screenX = 3840;
   setModesConfig[3].screenY = 2160;
   setModesConfig[3].transform = "normal";
-  setModesConfig[3].videoMode = "3840x2160x30p";
+  setModesConfig[3].videoMode = "1920x1080x60p";
 
   /*
   There is a known issue where getScreenModes function only returns the active outputs
